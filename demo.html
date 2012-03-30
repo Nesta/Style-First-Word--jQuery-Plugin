@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>When You Need To Style The First Word</title>
+	<style>
+	.firstWord {
+		font-family: cursive;
+		color: green;
+	}
+	</style>
+</head>
+<body>
+<h1>The Best Heading Ever</h1>
+<p>
+	lorem ipsum dolar sit amet.
+</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="public/javascripts/jquery.styleFirstWord.js"></script>
+
+<script>
+// $('h1').styleFirstWord({
+// 	id: 'my-id',
+// 	class: 'firstWord'
+// });
+
+$('h1, p').styleFirstWord();
+</script>
+
+</body>
+</html>
