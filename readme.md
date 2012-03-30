@@ -9,9 +9,11 @@ For those rare times when you need to style the first word in a particular eleme
     });
 
 That last snippet will turn:
+
     <h1>My Heading Here</h1>
 
 Into:
+
     <h1><span id="some-id" class="first-word">My</span> Heading Here</h1>
 
 ## Installation
