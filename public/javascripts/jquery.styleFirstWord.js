@@ -9,7 +9,7 @@
 		return this.each(function() {
 			var $this = $(this),
 					headingText = $this.text().split(' '),
-					span = $('<span>').attr(attr).text(headingText.shift());
+					span = $('<span>', attr).text(headingText.shift());
 
 			$this.html(
 				$('<div>').append(span).html() + ' ' + headingText.join(' ')
